@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.preview-card {
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card--image {
+  margin-bottom: 10px;
+}
+
+.card--box {
+  margin-bottom: 30px;
+}
+
+.card-box-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.card-box-paragraph {
+  font-size: 16px;
+  color: hsl(215, 51%, 70%);
+}
+
+.data-point {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.data-icon {
+  display: flex;
+  align-items: center;
+}
+
+.data-icon img {
+  margin-right: 5px;
+}
+
+.ETH {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.date {
+  color: hsl(215, 51%, 70%);
+}
+
+.line {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+}
+
+.creator-img {
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.creator p span {
+  color: hsl(215, 51%, 70%);
+}
